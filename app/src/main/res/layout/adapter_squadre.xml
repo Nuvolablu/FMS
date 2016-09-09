@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:foo="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingBottom="8dp">
+
+    <LinearLayout
+        android:id="@+id/LayoutList"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_height="70dp"
+            android:id="@+id/img_squadra"
+            android:layout_width="70dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/nome_squadra"
+            android:textAllCaps="true"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="25dp"/>
+
+    </LinearLayout>
+</LinearLayout>
