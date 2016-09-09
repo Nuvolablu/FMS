@@ -20,7 +20,7 @@ public class Finestra2 extends AppCompatActivity {
         moveTaskToBack(true);
         return true;
     }
-
+    // POTATO 
     private TabLayout tabLayout;
     private ViewPager viewPager;
 
